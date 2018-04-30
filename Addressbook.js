@@ -7,7 +7,7 @@ class contact {
         this.relation = relation;
     }
     toString() {
-        return this.name + " " + this.email + " " + this.phone + " " + this.relation; //formats the return to have spaces between the variables
+        return "Name:" +this.name + "<br> Email:" + this.email + "<br> Phone:" + this.phone + "<br> Relation:" + this.relation + "<br>"; //formats the return to have spaces between the variables
     }
 }
 
@@ -22,13 +22,6 @@ class AddressBook {
     }
     deleteAt(ind) { // Deletes contact based on position (ind)
         this.contacts.splice(ind,1);
-    }
-    print(ind) {// prints out each of the contacts in order of index
-        
-           
-            
-            
-        
     }
 }
 

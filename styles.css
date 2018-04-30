@@ -21,7 +21,7 @@ p {
     border-radius: 25px;
     padding: 10px;
     margin: 5px;
-    width: 35%;
+    width: 300px;
     height: auto; 
   }
   div#container {
@@ -55,6 +55,10 @@ p {
       border-radius: 5px;
     height: auto;
     margin: 5px;
+  }
+  #contacts{
+    display: flex;
+    flex-wrap: wrap;
   }
   
     
